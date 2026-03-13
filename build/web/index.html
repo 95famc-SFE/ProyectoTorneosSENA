@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro de Torneo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Registro de Nuevo Equipo</h1>
+        <form action="RegistroServlet" method="POST">
+            <label>Nombre del Equipo:</label><br>
+            <input type="text" name="nombreEquipo" required><br><br>
+            
+            <label>Categoría:</label><br>
+            <select name="categoria">
+                <option value="Juvenil">Juvenil</option>
+                <option value="Veteranos">Veteranos</option>
+                <option value="Profesional">Profesional</option>
+            </select><br><br>
+            
+            <button type="submit">Registrar Equipo</button>
+        </form>
+    </body>
+</html>
